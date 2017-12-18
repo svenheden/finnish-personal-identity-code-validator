@@ -16,7 +16,7 @@ $ npm install --save finnish-personal-identity-code-validator
 ## Usage
 
 ```js
-const isValid = require('finnish-personal-identity-code-validator');
+import { isValid } from 'finnish-personal-identity-code-validator';
 
 isValid('foobar') // => false
 ```
