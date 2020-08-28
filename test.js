@@ -16,6 +16,7 @@ test('personal identity codes with a correct checksum but incorrect date', asser
   assert.notOk(isValid('310253-4947'));
   assert.notOk(isValid('301388-3605'));
   assert.notOk(isValid('320988-676d'));
+  assert.notOk(isValid('290200-8912'));
   assert.end();
 });
 
@@ -25,5 +26,6 @@ test('valid personal identity codes', assert => {
   assert.ok(isValid('160853-494c'));
   assert.ok(isValid('100688-360L'));
   assert.ok(isValid('260988-676J'));
+  assert.ok(isValid('290200A8912')); // year 2000 leap day
   assert.end();
 });
