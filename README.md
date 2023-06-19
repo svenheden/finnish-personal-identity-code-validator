@@ -21,6 +21,7 @@ isValid("foobar"); // => false
 
 ## License
 
+MIT © [Kimmo Taskinen](https://github.com/kimmotaskinen)
 MIT © [Jonathan Svenheden](https://github.com/svenheden)
 
 [npm-url]: https://npmjs.org/package/finnish-personal-identity-code-validator
